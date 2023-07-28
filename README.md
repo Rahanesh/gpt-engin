@@ -27,7 +27,7 @@ For **stable** release:
 For **development**:
 
 ایجاد یک محیط مجازی اجرای فرامین پایتون برای ویندوز 
-- `python -m -venv ven`
+- `python -m venv venv`
 
 - `venv\scripts\activate`
 
