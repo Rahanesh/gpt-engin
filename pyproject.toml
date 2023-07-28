@@ -65,8 +65,8 @@ exclude = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/Rahanesh/gpt-engin"
-"Bug Tracker" = "https://github.com/Rahanesh/gpt-engin/issues"
+"Homepage" = "https://github.com/AntonOsika/gpt-engineer"
+"Bug Tracker" = "https://github.com/AntonOsika/gpt-engineer/issues"
 
 [tool.ruff.isort]
 known-first-party = []
