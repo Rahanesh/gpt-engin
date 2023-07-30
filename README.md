@@ -1,6 +1,6 @@
-# GPT Engine 
-# جی بی تی موتور 
-
+# GPT Engine or Engineer
+# جی بی تی موتور یا جی پی تی مهندس
+[![Rahanesh Media Channel](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/240px-Telegram_logo.svg.png)](https://rahanesh.ir)
 [![GitHub Repo stars](https://img.shields.io/github/stars/Rahanesh/gpt-engin?style=social)](https://github.com/Rahanesh/gpt-engin)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Rahanesh?style=social)](https://T.me/Rahanesh)
 
@@ -26,12 +26,12 @@ For **stable** release:
 
 For **development**:
 
-ایجاد یک محیط مجازی اجرای فرامین پایتون برای ویندوز 
-- `python -m venv venv`
+ایجاد یک محیط مجازی اجرای فرامین پایتون برای ویندوز- اسم محیط در مثال gpt است
+- `python -m venv gpt`
 
-- `venv\scripts\activate`
+- `gpt\scripts\activate`
 
-- `git clone https://github.com/Rahanesh/gpt-engin.git`
+- `git clone https://github.com/AntonOsika/gpt-engineer.git`
 - `cd gpt-engin`
 - `pip install -e .`
   - (or: `make install && source venv/bin/activate` for a venv)  برای لینوکس
@@ -41,7 +41,7 @@ For **development**:
 
 کلید API خود را از سایت زیر دریافت کنید و مطابق دستورات زیر در ترمینال لینوکس یا ویندوز خود اجرا کنید.
 
-[openai.com](https://platform.openai.com/login?launch)
+[openai.com](https://platform.openai.com/account/api-keys)
 
 با یک کلید OpenAI API (ترجیحا با دسترسی GPT-4) اجرا کنید:
 
@@ -61,7 +61,7 @@ For **development**:
 - یک پوشه خالی ایجاد کنید. اگر داخل مخزن هستید، می توانید دستور زیر را اجرا کنید:
 - `cp -r projects/example/ projects/my-new-project`
 - xcopy /E projects\example projects\my-new-project
-- فایل "prompt" را در پوشه جدید خود قراردهید
+- فایل "prompt" را در پوشه جدید خود قرار دهید
 - `gpt-engineer projects/my-new-project`
   - (Note, `gpt-engineer --help` با سویچ کمکی راهنما تمام گزینه های موجود را می بینید. به عنوان مثال --steps use_feedback به شما این امکان را می دهد کدهای یک پروژه را ویرایش و کامل تر کنید))
 
@@ -73,7 +73,7 @@ For **development**:
 
 To run in the browser you can simply:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/Rahanesh/gpt-engin/codespaces)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/AntonOsika/gpt-engineer/codespaces)
 
 
 **نکته**
